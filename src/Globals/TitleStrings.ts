@@ -1,14 +1,15 @@
-const Tiles: {
-    ChooseYourMattress: string, 
-    AddToCard: string,
-    SelectMattressType: string;
-    Mattress: string;
-} = {
-    ChooseYourMattress:"Choose Your Mattress",
-    AddToCard:"Add to Cart",
-    SelectMattressType: "Select Mattress Type",
-    Mattress: "Mattress"
+interface TitleLabels {
+  chooseYourMattress: string;
+  addToCard: string;
+  selectMattressType: string;
+  mattress: string;
+}
 
+const TitleStrings: TitleLabels = {
+  addToCard: "Add to Cart",
+  chooseYourMattress: "Choose Your Mattress",
+  mattress: "Mattress",
+  selectMattressType: "Select Mattress Type",
 };
 
-export default Tiles;
+export default TitleStrings;
